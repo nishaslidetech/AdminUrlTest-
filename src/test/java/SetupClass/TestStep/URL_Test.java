@@ -1,22 +1,16 @@
 package SetupClass.TestStep;
 
-import java.util.Random;
-import java.util.concurrent.TimeUnit;
-import org.junit.Assert;
 import java.util.List;
-import java.util.ArrayList;
+import java.util.concurrent.TimeUnit;
 
+import org.junit.Assert;
 import org.openqa.selenium.By;
-import org.openqa.selenium.NoSuchElementException;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import SetupClass.Set;
-import cucumber.api.java.en.Given;
-import cucumber.api.java.en.Then;
+import io.cucumber.java.en.Given;
 
 public class URL_Test extends Set {
 	WebDriverWait wait = new WebDriverWait(driver, 10);
